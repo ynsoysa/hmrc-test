@@ -13,7 +13,7 @@ public class Product {
 	public Product() {
 		super();
 	}
-	
+	 
 	public Product(String name, double price) {
 		super();
 		this.name = name;

@@ -49,7 +49,8 @@ public class ShoppingCartTest {
 	public void testMultipleItemsPrice() {
 		ShoppingCart shoppingCart = new ShoppingCart();
 		shoppingCart.addItems(Arrays.asList(new String[] {"Apple", "Apple", "Orange", "Apple"}));
-		assertEquals("2.05", String.valueOf(shoppingCart.checkout()));
+		assertEquals("1.45", String.valueOf(shoppingCart.checkout()));
 	}
 
+	
 }
